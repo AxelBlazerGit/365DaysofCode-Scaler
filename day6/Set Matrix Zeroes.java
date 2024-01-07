@@ -24,3 +24,21 @@ public class Solution{
         }
     }
 }
+
+// public class Solution {
+//     public void setZeroes(ArrayList<ArrayList<Integer>> a){        
+//         if(a.size()==0) return;        
+//         ArrayList<Integer[]> zeroes=new ArrayList<>();        
+//         int rows=a.size(), cols=a.get(0).size();        
+//         for(int i=0;i<rows;i++){
+//             for(int j=0;j<cols;j++){
+//                 if(a.get(i).get(j)==0) zeroes.add(new Integer[]{i,j});
+//             }
+//         }        
+//         for(Integer[] ele:zeroes){
+//             int row=ele[0],col=ele[1];
+//             for(int j=0;j<cols;j++) a.get(row).set(j,0);
+//             for(int i=0;i<rows;i++) a.get(i).set(col,0);
+//         }
+//     }
+// }
