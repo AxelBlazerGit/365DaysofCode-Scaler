@@ -1,6 +1,6 @@
 public class Solution {
     public int solve(String A) {
-        String[] words = A.split("\\s+");
+        String[] words = A.split("\\s+"); //split string for word array
         int palindromicCount = 0;
         for (String word : words) {
             if (isPalindrome(word)) {
