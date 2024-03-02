@@ -5,7 +5,7 @@ using namespace std;
 int main()  {
     int N;
     cin>>N;
-    // YOUR CODE GOES HERE
+     // YOUR CODE GOES HERE
     for(int i=0;i<N;i++){
         if(i%2==0) continue;
         cout<<i<<endl;
